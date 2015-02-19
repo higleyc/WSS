@@ -1,0 +1,23 @@
+#weatherbox {
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px 4px rgba(0,0,0,0.52);
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#conditionsimage {
+    margin-top: 15px;
+    float: right;
+}
+
+#conditions {
+    float: right;
+}
+
+#winds {
+    margin-top: 20px;
+}
+
+#container {
+    margin-top: 30px;
+}

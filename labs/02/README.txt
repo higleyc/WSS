@@ -1,0 +1,3 @@
+The weather app displays the weather for the current location of the user, including the current temperature, the high and low temperatures for the day, the wind speed, the humidity, and the current conditions.
+
+openweathermap.org provides the weather data. Depending on the current conditions, the icons are either from flaticon.com or those provided by openweathermap. Bootstrap provides the formatting of the app. CSS3 transitions are used to fade-in the box when the data loads.

@@ -1,0 +1,3 @@
+The project is contained in three files: ticker.html, ticker.js, and ticker.css. The JSON parsing, hashtag parsing, and visual element updating are all doen via individual JavaScript functions. JQuery is used both for the JSON parsing and for the animations. It assumes that the tweets are in "tweets.json" in the same directory.
+
+Code from the following Stack Overflow question was slightly adapted to check if the prifle image URL actually exists: http://stackoverflow.com/questions/3646914/how-do-i-check-if-file-exists-in-jquery-or-javascript
