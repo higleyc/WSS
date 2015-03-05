@@ -1,0 +1,93 @@
+body {
+    font-family: arial;
+}
+
+@media screen and (min-width: 1000px) {
+    #ticker {
+        border: 1px solid #888888;
+        height: 500px;
+        width: 700px;
+        margin: 0px auto;
+        position: absolute;
+        left: 25%;
+    }
+}
+
+#tweetTicker {
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    
+    border-right: 1px solid #A0A0A0;
+}
+
+#trendingTicker {
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    left: 70%;
+    top: 0px;
+    overflow: hidden;
+    
+    border-left: 1px solid #C0C0C0;
+}
+
+#tweetList {
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#hashtagList {
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.tweetBox {
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.hashtagBox {
+    height: 51px;
+    width: 100%;
+    margin: 0px;
+    padding-top: 20px;
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 14pt;
+    color: #55ACEE;
+}
+
+.tweetImage {
+    height: 90px;
+    width: 90px;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+
+.tweetUser {
+    position: relative;
+    left: 10px;
+    
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.tweetText {
+    position: relative;
+    left: 10px;
+    
+    font-size: 11pt;
+}

@@ -1,0 +1,3 @@
+This app is the same as my original Twitter ticker except with two additions:
+1) It is now responsive to different screen sizes - smaller (mobile) screen sizes will have the tweet box as the entire screen instead of the fixed-size box in the middle of the page.
+2) It uses jQuery Mobile to display a loading icon while it is loading the tweets. (Loading locally from the JSON file is fast so it may not appear for long.)
